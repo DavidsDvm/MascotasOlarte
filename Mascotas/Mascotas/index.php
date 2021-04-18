@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Mascotas Olarte</title>
+    <link rel="stylesheet" href="help/css/bootstrap.css">
+    <link rel="stylesheet" href="help/css/style.css">
+  </head>
+
+  <body>
+
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">
+            <img src="help/img/Logo_Mascotas_Olarte.png" alt="logo compania" id="Logo-navbar">
+          </a>
+          <ul class="nav nav-pills ml-auto">
+            <li class="nav-item" id="button-active-1">
+              <a class="nav-link active" href="index.php">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="view/services.php">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="view/about_us.php">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="view/login.php">Entrar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="view/register.php">Registro</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="cover">
+        <div id="cover-texto">
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="display-3" id="texto_borde_1">Mascotas Olarte</h1>
+                    <p>Podemos a su mascota cuidar, con el maximo de felicidad!.</p>
+
+                    <form method="POST" action="controllers/controlPreRegistro.php" class="form-inline justify-content-center">
+                        <div class="form-group">
+                            <label class="sr-only">Nombre</label>
+                            <input type="text" name="text_nombre_registro" class="form-control form-control-lg" placeholder="Pon tu nombre aquí">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only">Email</label>
+                            <input type="email" name="text_mail_registro" class="form-control form-control-lg" placeholder="Tu dirección de correo">
+                        </div>
+                        <button id="button-cover-1" type="submit" class="btn btn-success btn-lg">Registro</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+              <img src="help/img/pug_frio.jpg" alt="Perro bug con abrigo">
+
+              <div class="carousel-caption">
+                  <h3>Siempre protegeremos a tu mascota</h3>
+                  <p>Esta en buenas manos</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="help/img/gato_smile.jpg" alt="A wet spiderweb">
+
+              <div class="carousel-caption">
+                  <h3>Tu mascota te lo agradecera</h3>
+                  <p>El conoce sobre nosotros</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="help/img/gato_lamiendo.jpg" alt="Two hands making a heart">
+
+              <div class="carousel-caption">
+                  <h3>Siempre con tranquilidad</h3>
+                  <p>No se preocupe en servicios caros</p>
+              </div>
+          </div>
+      </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="empresa">
+         <div class="contenido-seccion">
+             <div class="container">
+                 <h2 class="card-top-index">Acerca de Mascotas Olarte</h2>
+                 <p class="lead card-text-index">Somos un pequeno grupo de veterinarios, encargados de la salud de tus mascotas, siempre podras confiar en nosotros y no te costara un ojo</p>
+                   <div class="row">
+                       <div class="col-md-12">
+                           <div class="card-deck">
+                               <div class="card">
+                                   <div class="card-block card-block-size">
+                                       <h4 class="card-title card-top-index">Clientes satisfechos</h4>
+                                       <h6 class="card-subtitle card-top-index">Nunca hay queja de nosotros</h6>
+                                   </div>
+                                   <img src="help/img/oveja_mirando_camara.jpg" alt="una oveja observando la camara" id="card_oveja_1">
+                                   <div class="card-block">
+                                       <p class="card-text-index card-text-index-size card-text">No busques mas, somos la solucion a tus problemas, tu amigo peludo no tendra mas certeza de que escogiste a los mejore y sin ninguna sorpresa.</p>
+                                   </div>
+                                   <button type="button" class="btn btn-primary btn-card-button-bottom" data-toggle="modal" data-target="#myModal" onclick="location.href='view/services.php'">Ver más</button>
+                               </div>
+                               <div class="card" id="card_hambre_1">
+                                   <div class="card-block card-block-size">
+                                       <h4 class="card-title card-top-index">Tenemos hambre de ayudar</h4>
+                                       <h6 class="card-subtitle card-top-index">Es nuestra responsabilidad</h6>
+                                   </div>
+                                   <img src="help/img/gato_hambre.jpg" alt="Gato con hambre">
+                                   <div class="card-block">
+                                       <p class="card-text-index card-text-index-size card-text">En nosotros podras confiar con garantia de encontrar una forma de ayudar no a una mascota, sino al miembro de tu hogar. Queremos ayudarlos en cualquier necesidad que tenga si es posible</p>
+                                   </div>
+                                   <button type="button" class="btn btn-primary btn-card-button-bottom" data-toggle="modal" data-target="#myModal" onclick="location.href='view/about_us.php'">Ver más</button>
+                               </div>
+                               <div class="card" id="card_descansa_1">
+                                   <div class="card-block card-block-size">
+                                       <h4 class="card-title card-top-index">Descansa ya</h4>
+                                       <h6 class="card-subtitle card-top-index">En nosotros encontraras la ayuda ideal</h6>
+                                   </div>
+                                   <img src="help/img/bulldog_durmiendo.jpg" alt="un bulldog descansando">
+                                   <div class="card-block">
+                                       <p class="card-text-index card-text-index-size card-text">Sin complicaciones de demas, nuestra ayuda encontraras y una mano amiga tendras. Aca te ayudaremos a que tanto tu mascota como tu te sientas de lo mejor </p>
+                                   </div>
+                                   <button type="button" class="btn btn-primary btn-card-button-bottom" data-toggle="modal" data-target="#myModal" onclick="location.href='view/services.php'">Ver más</button>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+             </div>
+         </div>
+    </section>
+
+    <section id="acerca-de">
+        <div class="contenido-seccion">
+            <div class="container">
+                <div class="col-md-6">
+                    <div class="texto-acerca-de">
+                        <h3>Porque confiar en nosotros</h3>
+                        <p class="lead">Somos un equipo de veterinarios, encantados de la naturaleza, buscamos que los animales que alli se encuentran, logren la felicidad y la de las personas que los rodean</p>
+                        <p>Nuestros bajos precios y gran calidad hablan muy bien de nosotros, pues queremos que las mascotas vivan en paz y que sus duenos no se preocupen mas y vivan con la tranquilidad de que sus amigos pelidos salvos estaran</p>
+                        <h3>Danos una oportunidad!!</h3>
+                        <a href="http://facebook.com" class="btn btn-sm btn-secondary-outline">Twitter</a>
+                        <a href="http://twitter.com" class="btn btn-sm btn-secondary-outline">Facebook</a>
+                        <a href="http://youtube.com" class="btn btn-sm btn-secondary-outline">Youtube</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p>Creado por David Vargas Monroy - Kevin David Rodriguez Riveros</p>
+                    <p>desarrollo <a href="http://www.tecnicopiloto.edu.co/">Grupo de trabajo SISTEMAS</a></p>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li><a href="index.php">Inicio</a></li>
+                        <li><a href="view/about_us.php">Acerca de Nosotros</a></li>
+                        <li><a href="view/services.php">Últimas noticias</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li><a href="http://facebook.com">facebook</a></li>
+                        <li><a href="http://twitter.com">twitter</a></li>
+                        <li><a href="http://youtube.com">youtube</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h6>Info</h6>
+                    <p>Proyecto desarollado con fines no comerciales</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="help/js/jquery-3.4.1.min.js"></script>
+    <script src="help/js/popper.min.js"></script>
+    <script src="help/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
+                                        

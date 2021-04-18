@@ -1,0 +1,182 @@
+/* css del index */
+html,
+body {
+    height: 100%;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.navbar
+{
+    background-color: #FAFAFA;
+}
+
+#Logo-navbar
+{
+  width: 400px;
+  height: 70px;
+}
+
+.nav-link.active
+{
+    background-color: rgba(22,90,151) !important;
+}
+
+.nav-pills .nav-link.active
+{
+    background-color: lightcoral;
+}
+
+.nav-pills .nav-link
+{
+    color: black ;
+}
+
+.navbar-expand-lg
+{
+    border-color: black;
+    border-bottom: 20px;
+}
+
+.nav-pills
+{
+    border: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+.navbar-brand
+{
+    font-size: 25px;
+    color:#c133ff !important;
+    font-weight: bold;
+}
+
+.image-center-relative
+{
+  position: relative;
+  height: 40%;
+  width: 100%;
+  background-image: url(../img/servicios_fondo.png);
+  background-size: 100% 100%;
+  overflow: hidden;
+  color: black;
+  font-family: "Oswald";
+}
+
+.image-center-relative:hover h1
+{
+  transform: translateX(0%);
+  transition:all .6s ease;
+}
+
+.image-center-relative:hover::before
+{
+  width: 50%;
+}
+
+.image-center-relative:hover::after
+{
+  width: 30%;
+}
+
+.image-center-relative::before{
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  content: "";
+  width: 0%;
+  height: 5px;
+  background-color: white;
+}
+
+.image-center-relative::after{
+  position: absolute;
+  top: 10px;
+  left: 30%;
+  content: "";
+  width: 0%;
+  height: 5px;
+  background-color: white;
+}
+
+.image-center-relative h1{
+  text-shadow: 2px 2px 2px #46c1ff;
+  position: absolute;
+  text-align: right;
+  right: 30%;
+  top: 100px;
+  color: white;
+  transform: translateX(800%);
+}
+
+#hospitalizacion, #cirugia, #urgencia
+{
+  background-color: #eeeeee;
+  padding: 20px 15px;
+}
+
+#observacion, #farmacia, #adopcion
+{
+  padding: 20px 15px;
+}
+
+.gray-card
+{
+  background-color: #eeeeee;
+}
+
+.card-align-text
+{
+  padding-left: 10%;
+}
+
+.card-title
+{
+  text-align: center;
+  font-family: Impact;
+  color: #7fc244;
+}
+
+.card-text
+{
+  text-align: center;
+  font-family: Helvetica;
+  color: #165a97;
+}
+
+.card-align-text-2
+{
+  padding-right: 10%;
+}
+
+.card-img-size:hover
+{
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+
+.card-img-size
+{
+  height: 340px;
+  weight: 191.25px;
+}
+
+.card-not-border
+{
+  border: 0px !important;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}

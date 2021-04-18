@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat:400,700');
+html,
+body {
+    height: 100%;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.navbar
+{
+    background-color: #FAFAFA;
+}
+
+#Logo-navbar
+{
+  width: 400px;
+  height: 70px;
+}
+
+.nav-link.active
+{
+    background-color: rgba(22,90,151) !important;
+}
+
+
+.nav-pills .nav-link
+{
+    color: black ;
+}
+
+.navbar-expand-lg
+{
+    border-color: black;
+    border-bottom: 20px;
+}
+
+.nav-pills
+{
+    border: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+.navbar-brand
+{
+    font-size: 25px;
+    color:#c133ff !important;
+    font-weight: bold;
+}
+
+#acerca-de {
+    background: url('../img/main_menu_font.jpg') center center no-repeat;
+    background-size: cover;
+    padding-bottom: 172px;
+    padding-top: 25px;
+}
+
+.texto-acerca-de {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+.btn-secondary-outline{
+    color: gray;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}

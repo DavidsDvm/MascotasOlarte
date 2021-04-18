@@ -1,0 +1,269 @@
+/* css del index */
+html,
+body {
+    height: 100%;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.navbar
+{
+    background-color: #FAFAFA;
+}
+
+#Logo-navbar
+{
+  width: 400px;
+  height: 70px;
+}
+
+.nav-link.active
+{
+    background-color: rgba(22,90,151) !important;
+}
+
+.nav-pills .nav-link.active
+{
+    background-color: lightcoral;
+}
+
+.nav-pills .nav-link
+{
+    color: black ;
+}
+
+.navbar-expand-lg
+{
+    border-color: black;
+    border-bottom: 20px;
+}
+
+.nav-pills
+{
+    border: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+.navbar-brand
+{
+    font-size: 25px;
+    color:#c133ff !important;
+    font-weight: bold;
+}
+
+.image-center-relative
+{
+  position: relative;
+  height: 40%;
+  width: 100%;
+  background-image: url(../img/fondo_acerca_de.jpg);
+  background-size: 100% 100%;
+  overflow: hidden;
+  color: black;
+  font-family: "Oswald";
+}
+
+.image-center-relative:hover h1
+{
+  transform: translateX(0%);
+  transition:all .6s ease;
+}
+
+.image-center-relative:hover::before
+{
+  width: 30%;
+}
+
+.image-center-relative:hover::after
+{
+  width: 30%;
+}
+
+.image-center-relative::before{
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  content: "";
+  width: 0%;
+  height: 5px;
+  background-color: black;
+}
+
+.image-center-relative::after{
+  position: absolute;
+  top: 10px;
+  left: 30%;
+  content: "";
+  width: 0%;
+  height: 5px;
+  background-color: black;
+}
+
+.image-center-relative h1{
+  text-shadow: 1px 1px 1px #000000;
+  position: absolute;
+  color: white;
+  text-align: right;
+  right: 30%;
+  top: 100px;
+  transform: translateX(800%);
+}
+
+.container-portada{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url(../img/Fondo-Quienes-Somos.jpg);
+    background-size: 150%;
+    animation: movimiento 15s infinite linear alternate;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+}
+
+
+.capa-gradient{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left, black, #e9fffc);
+    opacity: 0.5;
+}
+
+.container-details{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+
+.details{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.details h1{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.details p{
+    font-family: Montserrat;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.details button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background: none;
+    border-style: none;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    transition: background 300ms;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.details button:hover{
+    background: white;
+    color: black;
+}
+
+#Mision
+{
+  background-color: #eeeeee;
+  padding: 20px 15px;
+}
+
+#Vision
+{
+  padding: 20px 15px;
+  background-color: #e4e4e4;
+}
+
+.gray-card
+{
+  background-color: #eeeeee;
+}
+
+.gray-card-2
+{
+  background-color: #e4e4e4;
+}
+
+.card-align-text
+{
+  padding-left: 10%;
+}
+
+.card-title
+{
+  text-align: center;
+  font-family: Impact;
+  color: #7fc244;
+}
+
+.card-text
+{
+  text-align: center;
+  font-family: Helvetica;
+  color: #165a97;
+}
+
+.card-align-text-2
+{
+  padding-right: 10%;
+}
+
+.card-img-size:hover
+{
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+
+.card-img-size
+{
+  height: 340px;
+  weight: 191.25px;
+}
+
+.card-not-border
+{
+  border: 0px !important;
+}
+
+.buttons-grup-crud
+{
+  text-align: center;
+  margin-left: 900px;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
