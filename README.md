@@ -200,10 +200,10 @@ Reporte de estado de citas cumplidas por agenda médica
 
 
 | Codigo     | requisitos funcionales                                 |
-|------------|--------------------------------------------------------|
+| ---------- | ------------------------------------------------------ |
 | **RQF005** | Nombre: Gestión de la historia clínica de cada         |
 |            | paciente                                               |
-|------------|--------------------------------------------------------|
+| ---------- | ------------------------------------------------------ |
 |            | Descripción: El sistema debe permitir registrar,       |
 |            | consultar, actualizar la información digitalmente de   |
 |            | todos los estudios realizados a los pacientes.         |
@@ -214,7 +214,7 @@ Reporte de estado de citas cumplidas por agenda médica
 |            |                                                        |
 |            | El usuario paciente podrá consultar su historia        |
 |            | clínica en el aplicativo.                              |
-|------------|--------------------------------------------------------|
+| ---------- | ------------------------------------------------------ |
 |            | Usuarios: Secretaria, Médico                           |
 
 
