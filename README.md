@@ -1,6 +1,6 @@
 Proyecto
 
-Sistema de Información para la Gestión de citas,
+Sistema de Información para la Gestión de solucion de citas en entorno Web,
 
 Historial Clínico y Exámenes del Consultorio de Concentrados y mascotas
 Olarte
@@ -13,7 +13,7 @@ Haroldo De Zubiria Ocampo
 
 Giovanni Urrego Herrera
 
-Aprendices:
+**Aprendices:**
 
 Kevin David Rodriguez Riveros
 
@@ -141,6 +141,13 @@ información relevante frente al proceso que lleva actualmente la
 empresa, se complementa con el material de apoyo que incluye los anexos
 necesarios para su desarrollo, este se encuentra en la carpeta
 denominada MATERIAL DE APOYO DEL PROYECTO.
+
+Table Example:
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 
 **TAREA 1. LECTURA Y ANÁLISIS DEL DOCUMENTO**
 
