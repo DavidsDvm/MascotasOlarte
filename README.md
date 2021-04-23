@@ -174,7 +174,6 @@ Reporte de estado de citas cumplidas por agenda médica
 **TAREA 8. PRUEBAS DE FUNCIONALIDAD (TESTING)**
 
 **ANEXO 1. REQUISITOS FUNCIONALES**
-
   CÓDIgo       requisitos funcionales
   ------------ --------------------------------------------------------------------------------------------------------------------------------
   **RQF001**   Nombre: Validación de inicio de sesión
@@ -199,12 +198,12 @@ Reporte de estado de citas cumplidas por agenda médica
                Descripción: El sistema debe permitir realizar la gestión del calendario electrónico para agendamiento de citas On-Line o vía telefónica donde los pacientes y la secretaria, tendrán la opción de agendar y cancelar las citas médicas.
                Usuarios: Secretaria, paciente
 
-+------------+--------------------------------------------------------+
-| CODIgo     | requisitos funcionales                                 |
-+============+========================================================+
+
+| Codigo     | requisitos funcionales                                 |
+|------------|--------------------------------------------------------|
 | **RQF005** | Nombre: Gestión de la historia clínica de cada         |
 |            | paciente                                               |
-+------------+--------------------------------------------------------+
+|------------|--------------------------------------------------------|
 |            | Descripción: El sistema debe permitir registrar,       |
 |            | consultar, actualizar la información digitalmente de   |
 |            | todos los estudios realizados a los pacientes.         |
@@ -215,9 +214,9 @@ Reporte de estado de citas cumplidas por agenda médica
 |            |                                                        |
 |            | El usuario paciente podrá consultar su historia        |
 |            | clínica en el aplicativo.                              |
-+------------+--------------------------------------------------------+
+|------------|--------------------------------------------------------|
 |            | Usuarios: Secretaria, Médico                           |
-+------------+--------------------------------------------------------+
+
 
 +------------+--------------------------------------------------------+
 | CODIgo     | requisitos funcionales                                 |
