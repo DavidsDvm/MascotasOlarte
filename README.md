@@ -207,23 +207,13 @@ Reporte de estado de citas cumplidas por agenda médica
 |  | El usuario paciente podrá consultar su historia<br>clínica en el aplicativo. |
 
 
-+------------+--------------------------------------------------------+
-| CODIgo     | requisitos funcionales                                 |
-+============+========================================================+
-| **RQF006** | Nombre: Manejo de exámenes de laboratorio clínico      |
-+------------+--------------------------------------------------------+
-|            | Descripción: El sistema debe permitir Registrar y      |
-|            | Consultar de manera sencilla y ágil los resultados de  |
-|            | los análisis de laboratorios e imágenes diagnósticos.  |
-|            |                                                        |
-|            | El usuario Medico podrá consultar los resultados de    |
-|            | los exámenes de todos sus pacientes                    |
-|            |                                                        |
-|            | El usuario paciente podrá consultar los resultados de  |
-|            | sus exámenes.                                          |
-+------------+--------------------------------------------------------+
-|            | Usuarios: Secretaria, Médico, Paciente                 |
-+------------+--------------------------------------------------------+
+| Codigo | requisitos funcionales |
+|-|-|
+| **RQF006** | Nombre: Manejo de exámenes de laboratorio clínico |
+|  | Descripción: El sistema debe permitir Registrar y Consultar de manera sencilla y ágil los resultados de los análisis de laboratorios e imágenes diagnósticos. |
+|  | El usuario Medico podrá consultar los resultados de los exámenes de todos sus pacientes |
+|  | El usuario paciente podrá consultar los resultados de sus exámenes. |
+|  | Usuarios: Secretaria, Médico, Paciente |
 
   CODIgo       requisitos funcionales
   ------------ -------------------------------------------------------------------------------------------------------------------------
