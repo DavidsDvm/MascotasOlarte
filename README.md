@@ -148,6 +148,11 @@ Table Example:
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
+table example 2:
+| general |
+| #1 | bla bla |
+| #2 | ble ble |
+
 
 **TAREA 1. LECTURA Y ANÁLISIS DEL DOCUMENTO**
 
@@ -293,7 +298,7 @@ Reporte de estado de citas cumplidas por agenda médica
 | **3.7 POS CONDICIONES** |
 | Sistema |
 | **3.8 FRECUENCIA** |
-| Qué frecuencia tiene el CU Alta Media Baja |
+| Qué frecuencia tiene el CU Alta Media Baja |  
 
 +----------------+----------------+----------------+----------------+
 | 2.             |                |                |                |
