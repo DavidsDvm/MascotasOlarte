@@ -174,30 +174,29 @@ Reporte de estado de citas cumplidas por agenda médica
 **TAREA 8. PRUEBAS DE FUNCIONALIDAD (TESTING)**
 
 **ANEXO 1. REQUISITOS FUNCIONALES**
-  CÓDIgo       requisitos funcionales
-  ------------ --------------------------------------------------------------------------------------------------------------------------------
-  **RQF001**   Nombre: Validación de inicio de sesión
-               Descripción: El sistema debe permitir validar el usuario que empleará el software a través del manejo de usuario y contraseña.
-               Usuarios: Médico, Secretaria, Paciente
+| Codigo | requisitos funcionales |
+|-|-|
+| **RQF001** | Nombre: Validación de inicio de sesión |
+|  | Descripción: El sistema debe permitir validar el usuario que empleará el software a través del manejo de usuario y contraseña. |
+|  | Usuarios: Médico, Secretaria, Paciente |
 
-  CODIgo       requisitos funcionales
-  ------------ ---------------------------------------------------------------------------------------------------------------------------------------------------
-  **RQF002**   Nombre: Gestión de Usuarios
-               Descripción: El sistema debe permitir la gestión del usuario donde se puedan registrar, consultar, modificar o, habilitar/inhabilitar un usuario.
-               Usuarios: Secretaria
+| Codigo | requisitos funcionales |
+|-|-|
+| **RQF002** | Nombre: Gestión de Usuarios |
+|  |Descripción: El sistema debe permitir la gestión del usuario donde se puedan registrar, consultar, modificar o habilitar/inhabilitar un usuario. |
+|  |Usuarios: Secretaria |
 
-  CODIgo       requisitos funcionales
-  ------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **RQF003**   Nombre: Gestión de Agenda médica
-               Descripción: El sistema debe permitir realizar la gestión de la agenda para programar las citas de los médicos realizando el registro, consulta, modificación y habilitar/inhabilitar los horarios de las citas médicas, de acuerdo a la disponibilidad de cada profesional.
-               Usuarios: Médico
+| Codigo | requisitos funcionales |
+|-|-|
+| **RQF003** |  Nombre: Gestión de Agenda médica |
+|  | Descripción: El sistema debe permitir realizar la gestión de la agenda para programar las citas de los médicos realizando el registro, consulta, modificación y habilitar/inhabilitar los horarios de las citas médicas, de acuerdo a la disponibilidad de cada profesional. |
+|  | Usuarios: Médico |
 
-  CODIgo       requisitos funcionales
-  ------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **RQF004**   Nombre: Gestión de Agendamiento de citas para pacientes
-               Descripción: El sistema debe permitir realizar la gestión del calendario electrónico para agendamiento de citas On-Line o vía telefónica donde los pacientes y la secretaria, tendrán la opción de agendar y cancelar las citas médicas.
-               Usuarios: Secretaria, paciente
-
+| Codigo | requisitos funcionales |
+|-|-|
+| **RQF004** |  Nombre: Gestión de Agendamiento de citas para pacientes |
+|  | Descripción: El sistema debe permitir realizar la gestión del calendario electrónico para agendamiento de citas On-Line o vía telefónica donde los pacientes y la secretaria, tendrán la opción de agendar y cancelar las citas médicas. |
+|  | Usuarios: Secretaria, paciente |
 
 | Codigo | requisitos funcionales |
 |-|-|
@@ -215,57 +214,54 @@ Reporte de estado de citas cumplidas por agenda médica
 |  | El usuario paciente podrá consultar los resultados de sus exámenes. |
 |  | Usuarios: Secretaria, Médico, Paciente |
 
-  CODIgo       requisitos funcionales
-  ------------ -------------------------------------------------------------------------------------------------------------------------
-  **RQF007**   Nombre: Generar Reporte de Citas por Médico
-               Descripción: El sistema debe permitir Generar un Reporte de las citas asignadas diariamente por cada uno de los médicos
-               Usuarios: Secretaria
+| Codigo | requisitos funcionales |
+|-|-|
+| **RQF007** | Nombre: Generar Reporte de Citas por Médico |
+|  | Descripción: El sistema debe permitir Generar un Reporte de las citas asignadas diariamente por cada uno de los médicos |
+|  | Usuarios: Secretaria |
 
-  CODIgo       requisitos funcionales
-  ------------ -------------------------------------------------------------------------------------------------------------------------------------------------------
-  **RQF008**   Nombre: Generar Reporte Gráfico de asistencia de los pacientes a las citas por especialidad
-               Descripción: El sistema debe permitir Generar un Reporte gráfico de la asistencia de los pacientes a cada una de las especialidades de forma mensual.
-               Usuarios: Secretaria
+| Codigo | requisitos funcionales |
+|-|-|
+| **RQF008** | Nombre: Generar Reporte Gráfico de asistencia de los pacientes a las citas por especialidad |
+|  | Descripción: El sistema debe permitir Generar un Reporte gráfico de la asistencia de los pacientes a cada una de las especialidades de forma mensual. |
+|  | Usuarios: Secretaria |
 
-  CODIgo       requisitos funcionales
-  ------------ ------------------------------------------------------------------------------------------------------------------------------------------------------
-  **RQF009**   Nombre: Generar Reporte de Historia clínica por paciente
-               Descripción: El sistema debe permitir Generar un Reporte de la historia clínica de cada paciente de acuerdo a una solicitud generada por un usuario.
-               Usuarios: Secretaria
+| Codigo | requisitos funcionales |
+|-|-|
+| **RQF009** | Nombre: Generar Reporte de Historia clínica por paciente |
+|  | Descripción: El sistema debe permitir Generar un Reporte de la historia clínica de cada paciente de acuerdo a una solicitud generada por un usuario. |
+|  | Usuarios: Secretaria |
 
-  CODIgo       requisitos funcionales
-  ------------ -------------------------------------------------------------------------------------------------------------------------
-  **RQF010**   Nombre: Generar Reporte de estado de citas cumplidas por agenda médica
-               Descripción: El sistema debe permitir Generar un Reporte del estado de cumplimiento de las citas agendadas diariamente.
-               Usuarios: Secretaria
+| Codigo | requisitos funcionales |
+|-|-|
+| **RQF010** | Nombre: Generar Reporte de estado de citas cumplidas por agenda médica |
+|  | Descripción: El sistema debe permitir Generar un Reporte del estado de cumplimiento de las citas agendadas diariamente. |
+|  | Usuarios: Secretaria |
 
 **ANEXO 2. REQUISITOS NO FUNCIONALES**
 
-  CODIgo        requisitos NO funcionales
-  ------------- ------------------------------------------------------------------------------------------------------------------------------------------
-  **RQNF001**   Nombre: Portabilidad
-                Descripción: El sistema debe ejecutar todas las funciones para las cuales está diseñado en los siguientes navegadores: Chrome y Firefox.
+| Codigo | requisitos NO funcionales |
+|-|-|
+| **RQNF001** | Nombre: Portabilidad |
+|  | Descripción: El sistema debe ejecutar todas las funciones para las cuales está diseñado en los siguientes navegadores: Chrome y Firefox. |
 
-  CODIgo        requisitos no funcionales
-  ------------- ------------------------------------------------------------------------------------
-  **RQNF002**   Nombre: Seguridad de Autenticación
-                Descripción: El sistema debe permitir el ingreso solo de los usuarios registrados.
+| Codigo | requisitos NO funcionales |
+|-|-|
+| **RQNF002** | Nombre: Seguridad de Autenticación |
+|  | Descripción: El sistema debe permitir el ingreso solo de los usuarios registrados. |
 
-  CODIgo        requisitos no funcionales
-  ------------- --------------------------------------------------------------------------------------------------
-  **RQNF003**   Nombre: Seguridad Autorización
-                Descripción: El sistema debe controlar el acceso a las tareas de acuerdo al rol de cada usuario.
+| Codigo | requisitos NO funcionales |
+|-|-|
+| **RQNF003** | Nombre: Seguridad Autorización |
+|  | Descripción: El sistema debe controlar el acceso a las tareas de acuerdo al rol de cada usuario. |
 
 **ANEXO 3. DIAGRAMAS Y DOCUMENTACIÓN DE CASOS USO**
 
-![](media/image5.jpeg){width="6.6930555555555555in"
-height="3.9472222222222224in"}
+<img src="img/image5.jpeg" alt="Use case number 1" width="6.6930555555555555in" height="3.9472222222222224in">
 
-![](media/image6.jpeg){width="6.6930555555555555in"
-height="9.315972222222221in"}
+<img src="img/image6.jpeg" alt="Use case number 1" width="6.6930555555555555in" height="9.315972222222221in">
 
-![](media/image7.jpeg){width="6.6930555555555555in"
-height="8.018055555555556in"}
+<img src="img/image7.jpeg" alt="Use case number 1" width="6.6930555555555555in" height="8.018055555555556in">
 
 +----------------+----------------+----------------+----------------+
 | 1.             |                |                |                |
