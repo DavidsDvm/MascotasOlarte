@@ -200,10 +200,10 @@ Reporte de estado de citas cumplidas por agenda médica
 
 | Codigo | requisitos funcionales |
 |-|-|
-| **RQF005** | Nombre: Gestión de la historia clínica de cada<br>paciente |
-|  | Descripción: El sistema debe permitir registrar,<br>consultar, actualizar la información digitalmente de<br>todos los estudios realizados a los pacientes. |
-|  | El usuario secretaria sólo hará apertura (registro<br>datos básicos del paciente) y consulta de la historia<br>clínica. |
-|  | El usuario paciente podrá consultar su historia<br>clínica en el aplicativo. |
+| **RQF005** | Nombre: Gestión de la historia clínica de cada paciente |
+|  | Descripción: El sistema debe permitir registrar, consultar, actualizar la información digitalmente de todos los estudios realizados a los pacientes. |
+|  | El usuario secretaria sólo hará apertura (registro datos básicos del paciente) y consulta de la historia clínica. |
+|  | El usuario paciente podrá consultar su historia clínica en el aplicativo. |
 
 
 | Codigo | requisitos funcionales |
@@ -257,11 +257,11 @@ Reporte de estado de citas cumplidas por agenda médica
 
 **ANEXO 3. DIAGRAMAS Y DOCUMENTACIÓN DE CASOS USO**
 
-<img src="img/image5.jpeg" alt="Use case number 1" width="6.6930555555555555in" height="3.9472222222222224in">
+<img src="img/image5.png" alt="Use case number 1" width="6.6930555555555555in" height="3.9472222222222224in">
 
-<img src="img/image6.jpeg" alt="Use case number 1" width="6.6930555555555555in" height="9.315972222222221in">
+<img src="img/image3.jpg" alt="Use case number 2" width="6.6930555555555555in" height="9.315972222222221in">
 
-<img src="img/image7.jpeg" alt="Use case number 1" width="6.6930555555555555in" height="8.018055555555556in">
+<img src="img/image4.jpg" alt="Use case number 3" width="6.6930555555555555in" height="8.018055555555556in">
 
 +----------------+----------------+----------------+----------------+
 | 1.             |                |                |                |
