@@ -268,6 +268,133 @@ Reporte de estado de citas cumplidas por agenda médica
 
 <img src="img/image4.jpg" alt="Use case number 3">
 
+<table>
+    <tr>
+        <th>1. IDENTIFICACIÓN DE CASO DE USO</th>
+    </tr>
+    <tr>
+        <th>1.1 Id Caso</th>
+        <th>CU001</th>
+        <th>1.2 Nombre</th>
+        <th>Validar Inicio de Sesión</th>
+    </tr>
+     <tr>
+        <th>1.  HISTORICO DE CASO DE USO</th>
+    </tr>
+    <tr>
+        <th>2.1 Autores</th>
+        <th>Kevin David Rodriguez Riveros - David Vargas Monroy</th>
+    </tr>
+    <tr>
+        <th>2.2 Fecha Creación </th>
+        <th>5-5-2019</th>
+        <th>1. Última Actualización</th>
+    </tr>
+    <tr>
+        <th>2.4 Actualizado por</th>
+        <th>Kevin Rodriguez</th>
+        <th> </th>
+        <th>1.0</th>
+    </tr>
+    <tr>
+        <th>1. DEFINICION DE UN CASO DE USO</th>
+    </tr>
+    <tr>
+        <th> **3.1 DESCRIPCIÓN** </th>
+    </tr>
+    <tr>
+        <th> Permite validar el inicio de sesión </th>
+    </tr>
+    <tr>
+        <th> **3.2 ACTORES** </th>
+    </tr>
+    <tr>
+        <th> Admon, Medico, Secretaria, Cliente. </th>
+    </tr>
+     <tr>
+        <th> **3.3 PRECONDICIONES**  </th>
+    </tr>
+    <tr>
+        <th> 1.  El usuario debe estar autenticado en el sistema </th>
+    </tr>
+    <tr>
+        <tr>
+            <th> **3.4 FLUJO NORMAL** </th>
+        </tr>
+        <tr>
+            <th> Contando con las precondiciones el flujo normal será el siguiente: </th>
+        </tr>
+        <tr>
+            <tr>
+                <th> **Paso** </th>
+                <th> **Actor** </th>
+                <th> **Sistema** </th>
+            </tr>
+            <tr>
+                <th> 1 </th>
+                <th> Ingresa sus datos </th>
+                <th> Verifica si los datos son correctos </th>
+            </tr>
+            <tr>
+                <th> 2 </th>
+                <th> Escoge la opción de cambiar contraseña </th>
+                <th> El sistema da un límite de caracteres y cambia su contraseña </th>
+            </tr>
+            <tr>
+                <th> 3 </th>
+                <th>  </th>
+                <th> Muestra el mensaje: “Su contraseña ha sido cambiada” </th>
+            </tr>
+            <tr>
+                <th> 4 </th>
+                <th>  </th>
+                <th>  </th>
+            </tr>
+            <tr>
+                <th> 5 </th>
+                <th>  </th>
+                <th>  </th>
+            </tr>
+            <tr>
+                <th>   </th>
+                <th>   </th>
+                <th>   </th>
+            </tr>
+        </tr>
+    </tr>
+    <tr>
+        <th> **3.5 FLUJO ALTERNATIVO**  </th>
+    </tr>
+    <tr>
+        <tr>
+            <th> **3.6 FLUJO EXCEPCIONAL**</th>
+        </tr>
+        <tr>
+            <tr>
+                <th> **Paso** </th>
+                <th> **Actor** </th>
+                <th> **Sistema** </th>
+            </tr>
+            <tr>
+                <th> 1 </th>
+                <th> Digita mal sus datos </th>
+                <th> No valida inicio de sesion </th>
+            </tr>
+        </tr>
+    </tr>
+    <tr>
+        <th> **3.7 POS CONDICIONES** </th>
+    </tr>
+    <tr>
+        <th> Sistema </th>
+    </tr>
+    <tr>
+        <th> **3.8 FRECUENCIA** </th>
+    </tr>
+    <tr>
+        <th> Qué frecuencia tiene el CU Alta Media Baja </th>
+    </tr>
+</table>
 
 | 1. IDENTIFICACIÓN DE CASO DE USO |
 | 1.1 Id Caso | CU001 | 1.2 Nombre | Validar Inicio de Sesión |
