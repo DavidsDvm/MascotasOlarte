@@ -257,11 +257,11 @@ Reporte de estado de citas cumplidas por agenda médica
 
 **ANEXO 3. DIAGRAMAS Y DOCUMENTACIÓN DE CASOS USO**
 
-<img src="img/image5.png" alt="Use case number 1" width="6.6930555555555555in" height="3.9472222222222224in">
+<img src="img/image5.png" alt="Use case number 1">
 
-<img src="img/image3.jpg" alt="Use case number 2" width="6.6930555555555555in" height="9.315972222222221in">
+<img src="img/image3.jpg" alt="Use case number 2">
 
-<img src="img/image4.jpg" alt="Use case number 3" width="6.6930555555555555in" height="8.018055555555556in">
+<img src="img/image4.jpg" alt="Use case number 3">
 
 +----------------+----------------+----------------+----------------+
 | 1.             |                |                |                |
