@@ -395,38 +395,6 @@ Reporte de estado de citas cumplidas por agenda médica
         <th colspan="4" > Qué frecuencia tiene el CU Alta Media Baja </th>
     </tr>
 </table>
-
-| 1. IDENTIFICACIÓN DE CASO DE USO |
-| 1.1 Id Caso | CU001 | 1.2 Nombre | Validar Inicio de Sesión |
-| 1.  HISTORICO DE CASO DE USO |
-| 2.1 Autores | Kevin David Rodriguez Riveros - David Vargas Monroy |
-| 2.2 Fecha Creación | 5-5-2019 | 1. Última Actualización |
-| 2.4 Actualizado por | Kevin Rodriguez |  | 1.0 |
-| 1. DEFINICION DE UN CASO DE USO |
-| **3.1 DESCRIPCIÓN** |
-| Permite validar el inicio de sesión |
-| **3.2 ACTORES** |
-| Admon, Medico, Secretaria, Cliente. |
-| **3.3 PRECONDICIONES** |
-| 1.  El usuario debe estar autenticado en el sistema |
-| **3.4 FLUJO NORMAL** |
-| | Contando con las precondiciones el flujo normal será el siguiente: | |
-| | **Paso** | **Actor** | **Sistema** | |
-| | 1 | Ingresa sus datos | Verifica si los datos son correctos | |
-| | 2 | Escoge la opción de cambiar contraseña | El sistema da un límite de caracteres y cambia su contraseña | |
-| | 3 |  | Muestra el mensaje: “Su contraseña ha sido cambiada” | |
-| | 4 |  |  | |
-| | 5 |  |  | |
-| |  |  |  | |
-| **3.5 FLUJO ALTERNATIVO** |
-| **3.6 FLUJO EXCEPCIONAL** |
-| | **Paso** | **Actor** | **Sistema** | |
-| | 1 | Digita mal sus datos | No valida inicio de sesion | |
-| **3.7 POS CONDICIONES** |
-| Sistema |
-| **3.8 FRECUENCIA** |
-| Qué frecuencia tiene el CU Alta Media Baja |  
-
 +----------------+----------------+----------------+----------------+
 | 2.             |                |                |                |
 | IDENTIFICACIÓN |                |                |                |
