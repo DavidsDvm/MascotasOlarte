@@ -530,9 +530,9 @@ Reporte de estado de citas cumplidas por agenda médica
     </tr>
     <tr>
         <th>1.1 Id Caso</th>
-        <th>CU002</th>
+        <th>CU003</th>
         <th>1.2 Nombre</th>
-        <th>Gestionar Usuarios</th>
+        <th>Gestionar Médicos</th>
     </tr>
      <tr>
         <th colspan="4">2.  HISTORICO DE CASO DE USO</th>
@@ -559,13 +559,13 @@ Reporte de estado de citas cumplidas por agenda médica
         <th colspan="4"> **3.1 DESCRIPCIÓN** </th>
     </tr>
     <tr>
-        <th colspan="4"> Permite validar el inicio de sesión </th>
+        <th colspan="4"> Permite gestionar médicos </th>
     </tr>
     <tr>
         <th colspan="4"> **3.2 ACTORES** </th>
     </tr>
     <tr>
-        <th colspan="4"> Secretaria. </th>
+        <th colspan="4"> Admon. </th>
     </tr>
      <tr>
         <th colspan="4"> **3.3 PRECONDICIONES**  </th>
@@ -593,13 +593,13 @@ Reporte de estado de citas cumplidas por agenda médica
             </tr>
             <tr>
                 <th> 2 </th>
-                <th> Escoge la opción de gestionar usuarios </th>
+                <th> Escoge la opción de gestionar médicos  </th>
                 <th colspan="2"> El sistema despliega las opciones </th>
             </tr>
             <tr>
                 <th> 3 </th>
                 <th> El usuario escoge que opción quiere realizar </th>
-                <th colspan="2"> Escoge entre Registrar, Actualizar, Consultar o Eliminar Usuario </th>
+                <th colspan="2"> Escoge entre Registrar, Actualizar, Consultar o Eliminar Médico </th>
             </tr>
             <tr>
                 <th> 4 </th>
