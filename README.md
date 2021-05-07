@@ -651,7 +651,6 @@ Reporte de estado de citas cumplidas por agenda médica
         <th colspan="4" > Qué frecuencia tiene el CU Alta Media Baja </th>
     </tr>
 </table>
-
 +----------------+----------------+----------------+----------------+
 | 4.             |                |                |                |
 | IDENTIFICACIÓN |                |                |                |
