@@ -651,344 +651,262 @@ Reporte de estado de citas cumplidas por agenda médica
         <th colspan="4" > Qué frecuencia tiene el CU Alta Media Baja </th>
     </tr>
 </table>
-+----------------+----------------+----------------+----------------+
-| 4.             |                |                |                |
-| IDENTIFICACIÓN |                |                |                |
-|     DE CASO DE |                |                |                |
-|     USO        |                |                |                |
-+================+================+================+================+
-| 1.1 Id Caso    | CU004          | 1.2 Nombre     | Historia       |
-|                |                |                | Clinica        |
-+----------------+----------------+----------------+----------------+
-| 4.  HISTORICO  |                |                |                |
-|     DE CASO DE |                |                |                |
-|     USO        |                |                |                |
-+----------------+----------------+----------------+----------------+
-| 2.1 Autor      | Kevin David    |                |                |
-|                | Rodriguez      |                |                |
-|                | Riveros-David  |                |                |
-|                | Vargas Monroy  |                |                |
-+----------------+----------------+----------------+----------------+
-| 2.2 Fecha      | 5-5-2019       | 1.  Última     |                |
-| Creación       |                |     >          |                |
-|                |                |  Actualización |                |
-+----------------+----------------+----------------+----------------+
-| 2.4            | Kevin          |                | 1.0            |
-| Actualizado    | Rodriguez      |                |                |
-| por            |                |                |                |
-+----------------+----------------+----------------+----------------+
-| 4.  DEFINICION |                |                |                |
-|     DE UN CASO |                |                |                |
-|     DE USO     |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.1          |                |                |                |
-| DESCRIPCIÓN**  |                |                |                |
-+----------------+----------------+----------------+----------------+
-| Permite        |                |                |                |
-| gestionar      |                |                |                |
-| historia       |                |                |                |
-| clinica        |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.2          |                |                |                |
-| ACTORES**      |                |                |                |
-+----------------+----------------+----------------+----------------+
-| Admon, Medico  |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.3          |                |                |                |
-| PR             |                |                |                |
-| ECONDICIONES** |                |                |                |
-+----------------+----------------+----------------+----------------+
-| 1.  El usuario |                |                |                |
-|     > debe     |                |                |                |
-|     > estar    |                |                |                |
-|                |                |                |                |
-|  > autenticado |                |                |                |
-|     > en el    |                |                |                |
-|     > sistema  |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.4 FLUJO    |                |                |                |
-| NORMAL**       |                |                |                |
-+----------------+----------------+----------------+----------------+
-| Contando con   |                |                |                |
-| las            |                |                |                |
-| precondiciones |                |                |                |
-| el flujo       |                |                |                |
-| normal será el |                |                |                |
-| siguiente:     |                |                |                |
-|                |                |                |                |
-| <table>        |                |                |                |
-| <thead>        |                |                |                |
-| <tr c          |                |                |                |
-| lass="header"> |                |                |                |
-| <t             |                |                |                |
-| h><strong>Paso |                |                |                |
-| </strong></th> |                |                |                |
-| <th            |                |                |                |
-| ><strong>Actor |                |                |                |
-| </strong></th> |                |                |                |
-| <th><          |                |                |                |
-| strong>Sistema |                |                |                |
-| </strong></th> |                |                |                |
-| </tr>          |                |                |                |
-| </thead>       |                |                |                |
-| <tbody>        |                |                |                |
-| <t             |                |                |                |
-| r class="odd"> |                |                |                |
-| <td>1</td>     |                |                |                |
-| <td>Ingresa    |                |                |                |
-| sus datos</td> |                |                |                |
-| <t             |                |                |                |
-| d>Verifica si  |                |                |                |
-| los datos son  |                |                |                |
-| correctos</td> |                |                |                |
-| </tr>          |                |                |                |
-| <tr            |                |                |                |
-|  class="even"> |                |                |                |
-| <td>2</td>     |                |                |                |
-| <td>Escoge la  |                |                |                |
-|  opción de ges |                |                |                |
-| tionar histori |                |                |                |
-| a clínica</td> |                |                |                |
-| <td>El sistema |                |                |                |
-|  despliega las |                |                |                |
-|  opciones</td> |                |                |                |
-| </tr>          |                |                |                |
-| <t             |                |                |                |
-| r class="odd"> |                |                |                |
-| <td>3</td>     |                |                |                |
-| <td>El usua    |                |                |                |
-| rio escoge que |                |                |                |
-|  opción quiere |                |                |                |
-|  realizar</td> |                |                |                |
-| <td            |                |                |                |
-| ><p>Escoge ent |                |                |                |
-| re Crear, Edit |                |                |                |
-| ar, Consultar  |                |                |                |
-| o Eliminar</p> |                |                |                |
-| <p>            |                |                |                |
-| La historia cl |                |                |                |
-| inica</p></td> |                |                |                |
-| </tr>          |                |                |                |
-| <tr            |                |                |                |
-|  class="even"> |                |                |                |
-| <td>4</td>     |                |                |                |
-| <td></td>      |                |                |                |
-| <td>Elabora    |                |                |                |
-| la acción</td> |                |                |                |
-| </tr>          |                |                |                |
-| <t             |                |                |                |
-| r class="odd"> |                |                |                |
-| <td>5</td>     |                |                |                |
-| <td></td>      |                |                |                |
-| <td>Mensa      |                |                |                |
-| je diciendo la |                |                |                |
-|  acción que a  |                |                |                |
-| realizado</td> |                |                |                |
-| </tr>          |                |                |                |
-| </tbody>       |                |                |                |
-| </table>       |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.5 FLUJO    |                |                |                |
-| ALTERNATIVO**  |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.5 FLUJO    |                |                |                |
-| EXCEPCIONAL**  |                |                |                |
-+----------------+----------------+----------------+----------------+
-|   **P          |                |                |                |
-| aso**   **Acto |                |                |                |
-| r**            |                |                |                |
-|    **Sistema** |                |                |                |
-|                |                |                |                |
-|  ---------- -- |                |                |                |
-| -------------- |                |                |                |
-| ------ ------- |                |                |                |
-| -------------- |                |                |                |
-|   1            |                |                |                |
-| Digita mal sus |                |                |                |
-|  datos   No en |                |                |                |
-| tra al sistema |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.7 POS      |                |                |                |
-| CONDICIONES**  |                |                |                |
-+----------------+----------------+----------------+----------------+
-| Sistema        |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.8          |                |                |                |
-| FRECUENCIA**   |                |                |                |
-+----------------+----------------+----------------+----------------+
-| Que frecuencia |                |                |                |
-| tiene el CU    |                |                |                |
-| Alta Media     |                |                |                |
-| Baja           |                |                |                |
-+----------------+----------------+----------------+----------------+
 
-+----------------+----------------+----------------+----------------+
-| 5.             |                |                |                |
-| IDENTIFICACIÓN |                |                |                |
-|     DE CASO DE |                |                |                |
-|     USO        |                |                |                |
-+================+================+================+================+
-| 1.1 Id Caso    | CU004          | 1.2 Nombre     | Historia       |
-|                |                |                | Clinica        |
-+----------------+----------------+----------------+----------------+
-| 5.  HISTORICO  |                |                |                |
-|     DE CASO DE |                |                |                |
-|     USO        |                |                |                |
-+----------------+----------------+----------------+----------------+
-| 2.1 Autor      | Kevin David    |                |                |
-|                | Rodriguez      |                |                |
-|                | Riveros-David  |                |                |
-|                | Vargas Monroy  |                |                |
-+----------------+----------------+----------------+----------------+
-| 2.2 Fecha      | 5-5-2019       | 1.  Última     |                |
-| Creación       |                |     >          |                |
-|                |                |  Actualización |                |
-+----------------+----------------+----------------+----------------+
-| 2.4            | Kevin          |                | 1.0            |
-| Actualizado    | Rodriguez      |                |                |
-| por            |                |                |                |
-+----------------+----------------+----------------+----------------+
-| 5.  DEFINICION |                |                |                |
-|     DE UN CASO |                |                |                |
-|     DE USO     |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.1          |                |                |                |
-| DESCRIPCIÓN**  |                |                |                |
-+----------------+----------------+----------------+----------------+
-| Permite        |                |                |                |
-| gestionar      |                |                |                |
-| historia       |                |                |                |
-| clinica        |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.2          |                |                |                |
-| ACTORES**      |                |                |                |
-+----------------+----------------+----------------+----------------+
-| Cliente        |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.3          |                |                |                |
-| PR             |                |                |                |
-| ECONDICIONES** |                |                |                |
-+----------------+----------------+----------------+----------------+
-| 1.  El usuario |                |                |                |
-|     > debe     |                |                |                |
-|     > estar    |                |                |                |
-|                |                |                |                |
-|  > autenticado |                |                |                |
-|     > en el    |                |                |                |
-|     > sistema  |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.4 FLUJO    |                |                |                |
-| NORMAL**       |                |                |                |
-+----------------+----------------+----------------+----------------+
-| Contando con   |                |                |                |
-| las            |                |                |                |
-| precondiciones |                |                |                |
-| el flujo       |                |                |                |
-| normal será el |                |                |                |
-| siguiente:     |                |                |                |
-|                |                |                |                |
-| <table>        |                |                |                |
-| <thead>        |                |                |                |
-| <tr c          |                |                |                |
-| lass="header"> |                |                |                |
-| <t             |                |                |                |
-| h><strong>Paso |                |                |                |
-| </strong></th> |                |                |                |
-| <th            |                |                |                |
-| ><strong>Actor |                |                |                |
-| </strong></th> |                |                |                |
-| <th><          |                |                |                |
-| strong>Sistema |                |                |                |
-| </strong></th> |                |                |                |
-| </tr>          |                |                |                |
-| </thead>       |                |                |                |
-| <tbody>        |                |                |                |
-| <t             |                |                |                |
-| r class="odd"> |                |                |                |
-| <td>1</td>     |                |                |                |
-| <td>Ingresa    |                |                |                |
-| sus datos</td> |                |                |                |
-| <t             |                |                |                |
-| d>Verifica si  |                |                |                |
-| los datos son  |                |                |                |
-| correctos</td> |                |                |                |
-| </tr>          |                |                |                |
-| <tr            |                |                |                |
-|  class="even"> |                |                |                |
-| <td>2</td>     |                |                |                |
-| <td>Escoge la  |                |                |                |
-|  opción de ges |                |                |                |
-| tionar histori |                |                |                |
-| a clínica</td> |                |                |                |
-| <td>El sistema |                |                |                |
-|  despliega las |                |                |                |
-|  opciones</td> |                |                |                |
-| </tr>          |                |                |                |
-| <t             |                |                |                |
-| r class="odd"> |                |                |                |
-| <td>3</td>     |                |                |                |
-| <td>El usua    |                |                |                |
-| rio escoge que |                |                |                |
-|  opción quiere |                |                |                |
-|  realizar</td> |                |                |                |
-| <td><p>Tiene l |                |                |                |
-| a opción de co |                |                |                |
-| nsultar su</p> |                |                |                |
-| <p>historia cl |                |                |                |
-| inica</p></td> |                |                |                |
-| </tr>          |                |                |                |
-| <tr            |                |                |                |
-|  class="even"> |                |                |                |
-| <td>4</td>     |                |                |                |
-| <td></td>      |                |                |                |
-| <td>Elabora    |                |                |                |
-| la acción</td> |                |                |                |
-| </tr>          |                |                |                |
-| <t             |                |                |                |
-| r class="odd"> |                |                |                |
-| <td>5</td>     |                |                |                |
-| <td></td>      |                |                |                |
-| <td>Mensaj     |                |                |                |
-| e diciendo la  |                |                |                |
-| acción que ha  |                |                |                |
-| realizado</td> |                |                |                |
-| </tr>          |                |                |                |
-| </tbody>       |                |                |                |
-| </table>       |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.5 FLUJO    |                |                |                |
-| ALTERNATIVO**  |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.5 FLUJO    |                |                |                |
-| EXCEPCIONAL**  |                |                |                |
-+----------------+----------------+----------------+----------------+
-|   **P          |                |                |                |
-| aso**   **Acto |                |                |                |
-| r**            |                |                |                |
-|    **Sistema** |                |                |                |
-|                |                |                |                |
-|  ---------- -- |                |                |                |
-| -------------- |                |                |                |
-| ------ ------- |                |                |                |
-| -------------- |                |                |                |
-|   1            |                |                |                |
-| Digita mal sus |                |                |                |
-|  datos   No en |                |                |                |
-| tra al sistema |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.7 POS      |                |                |                |
-| CONDICIONES**  |                |                |                |
-+----------------+----------------+----------------+----------------+
-| Sistema        |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.8          |                |                |                |
-| FRECUENCIA**   |                |                |                |
-+----------------+----------------+----------------+----------------+
-| Que frecuencia |                |                |                |
-| tiene el CU    |                |                |                |
-| Alta Media     |                |                |                |
-| Baja           |                |                |                |
-+----------------+----------------+----------------+----------------+
+<table style="width:100%">
+    <tr>
+        <th colspan="4">1. IDENTIFICACIÓN DE CASO DE USO</th>
+    </tr>
+    <tr>
+        <th>1.1 Id Caso</th>
+        <th>CU004</th>
+        <th>1.2 Nombre</th>
+        <th>Historia Clínica</th>
+    </tr>
+     <tr>
+        <th colspan="4">2.  HISTORICO DE CASO DE USO</th>
+    </tr>
+    <tr>
+        <th>2.1 Autores</th>
+        <th colspan="3">Kevin David Rodriguez Riveros - David Vargas Monroy</th>
+    </tr>
+    <tr>
+        <th>2.2 Fecha Creación </th>
+        <th>5-5-2019</th>
+        <th colspan="2">1. Última Actualización</th>
+    </tr>
+    <tr>
+        <th>2.4 Actualizado por</th>
+        <th>Kevin Rodriguez</th>
+        <th> </th>
+        <th>1.0</th>
+    </tr>
+    <tr>
+        <th colspan="4">1. DEFINICION DE UN CASO DE USO</th>
+    </tr>
+    <tr>
+        <th colspan="4"> **3.1 DESCRIPCIÓN** </th>
+    </tr>
+    <tr>
+        <th colspan="4"> Permite gestionar historia clínica </th>
+    </tr>
+    <tr>
+        <th colspan="4"> **3.2 ACTORES** </th>
+    </tr>
+    <tr>
+        <th colspan="4"> Admon, Médico. </th>
+    </tr>
+     <tr>
+        <th colspan="4"> **3.3 PRECONDICIONES**  </th>
+    </tr>
+    <tr>
+        <th colspan="4"> 1.  El usuario debe estar autenticado en el sistema </th>
+    </tr>
+    <tr>
+        <tr>
+            <th colspan="4"> **3.4 FLUJO NORMAL** </th>
+        </tr>
+        <tr>
+            <th colspan="4"> Contando con las precondiciones el flujo normal será el siguiente: </th>
+        </tr>
+        <tr>
+            <tr>
+                <th> Paso </th>
+                <th> Actor </th>
+                <th colspan="2"> Sistema </th>
+            </tr>
+            <tr>
+                <th> 1 </th>
+                <th> Ingresa sus datos </th>
+                <th colspan="2"> Verifica si los datos son correctos </th>
+            </tr>
+            <tr>
+                <th> 2 </th>
+                <th> Escoge la opción de gestionar historia clínica   </th>
+                <th colspan="2"> El sistema despliega las opciones </th>
+            </tr>
+            <tr>
+                <th> 3 </th>
+                <th> El usuario escoge que opción quiere realizar </th>
+                <th colspan="2"> Escoge entre Crear, Editar, Consultar o Eliminar la historia clínica </th>
+            </tr>
+            <tr>
+                <th> 4 </th>
+                <th>  </th>
+                <th colspan="2"> Elabora la acción  </th>
+            </tr>
+            <tr>
+                <th> 5 </th>
+                <th>  </th>
+                <th colspan="2"> Mensaje diciendo la acción que a realizado </th>
+            </tr>
+            <tr>
+                <th>   </th>
+                <th>   </th>
+                <th colspan="2">   </th>
+            </tr>
+        </tr>
+    </tr>
+    <tr>
+        <th colspan="4"> 3.5 FLUJO ALTERNATIVO  </th>
+    </tr>
+    <tr>
+        <tr>
+            <th colspan="4"> 3.6 FLUJO EXCEPCIONAL </th>
+        </tr>
+        <tr>
+            <tr>
+                <th> Paso </th>
+                <th> Actor </th>
+                <th colspan="2"> Sistema </th>
+            </tr>
+            <tr>
+                <th> 1 </th>
+                <th> Digita mal sus datos </th>
+                <th colspan="2"> No entra al sistema </th>
+            </tr>
+        </tr>
+    </tr>
+    <tr>
+        <th colspan="4"> 3.7 POS CONDICIONES </th>
+    </tr>
+    <tr>
+        <th colspan="4"> Sistema </th>
+    </tr>
+    <tr>
+        <th colspan="4"> 3.8 FRECUENCIA </th>
+    </tr>
+    <tr>
+        <th colspan="4" > Qué frecuencia tiene el CU Alta Media Baja </th>
+    </tr>
+</table>
+
+<table style="width:100%">
+    <tr>
+        <th colspan="4">1. IDENTIFICACIÓN DE CASO DE USO</th>
+    </tr>
+    <tr>
+        <th>1.1 Id Caso</th>
+        <th>CU005</th>
+        <th>1.2 Nombre</th>
+        <th>Gestionar Mascotas en Adopción</th>
+    </tr>
+     <tr>
+        <th colspan="4">2.  HISTORICO DE CASO DE USO</th>
+    </tr>
+    <tr>
+        <th>2.1 Autores</th>
+        <th colspan="3">Kevin David Rodriguez Riveros - David Vargas Monroy</th>
+    </tr>
+    <tr>
+        <th>2.2 Fecha Creación </th>
+        <th>5-5-2019</th>
+        <th colspan="2">1. Última Actualización</th>
+    </tr>
+    <tr>
+        <th>2.4 Actualizado por</th>
+        <th>Kevin Rodriguez</th>
+        <th> </th>
+        <th>1.0</th>
+    </tr>
+    <tr>
+        <th colspan="4">1. DEFINICIÓN DE UN CASO DE USO</th>
+    </tr>
+    <tr>
+        <th colspan="4"> **3.1 DESCRIPCIÓN** </th>
+    </tr>
+    <tr>
+        <th colspan="4"> Permite gestionar mascotas en adopción  </th>
+    </tr>
+    <tr>
+        <th colspan="4"> **3.2 ACTORES** </th>
+    </tr>
+    <tr>
+        <th colspan="4"> Admón, Medico, Secretaria. </th>
+    </tr>
+     <tr>
+        <th colspan="4"> **3.3 PRECONDICIONES**  </th>
+    </tr>
+    <tr>
+        <th colspan="4"> 1.  El usuario debe estar autenticado en el sistema </th>
+    </tr>
+    <tr>
+        <tr>
+            <th colspan="4"> **3.4 FLUJO NORMAL** </th>
+        </tr>
+        <tr>
+            <th colspan="4"> Contando con las precondiciones el flujo normal será el siguiente: </th>
+        </tr>
+        <tr>
+            <tr>
+                <th> Paso </th>
+                <th> Actor </th>
+                <th colspan="2"> Sistema </th>
+            </tr>
+            <tr>
+                <th> 1 </th>
+                <th> Ingresa sus datos </th>
+                <th colspan="2"> Verifica si los datos son correctos </th>
+            </tr>
+            <tr>
+                <th> 2 </th>
+                <th> Escoge la opción de gestionar mascotas en adopción </th>
+                <th colspan="2"> El sistema despliega las opciones </th>
+            </tr>
+            <tr>
+                <th> 3 </th>
+                <th> El usuario escoge que opción quiere realizar </th>
+                <th colspan="2"> Tiene la opción de crear o eliminar ID de mascota </th>
+            </tr>
+            <tr>
+                <th> 4 </th>
+                <th>  </th>
+                <th colspan="2"> Elabora la acción  </th>
+            </tr>
+            <tr>
+                <th> 5 </th>
+                <th>  </th>
+                <th colspan="2"> Mensaje diciendo la acción que a realizado </th>
+            </tr>
+            <tr>
+                <th>   </th>
+                <th>   </th>
+                <th colspan="2">   </th>
+            </tr>
+        </tr>
+    </tr>
+    <tr>
+        <th colspan="4"> 3.5 FLUJO ALTERNATIVO  </th>
+    </tr>
+    <tr>
+        <tr>
+            <th colspan="4"> 3.6 FLUJO EXCEPCIONAL </th>
+        </tr>
+        <tr>
+            <tr>
+                <th> Paso </th>
+                <th> Actor </th>
+                <th colspan="2"> Sistema </th>
+            </tr>
+            <tr>
+                <th> 1 </th>
+                <th> Digita mal sus datos </th>
+                <th colspan="2"> No entra al sistema </th>
+            </tr>
+        </tr>
+    </tr>
+    <tr>
+        <th colspan="4"> 3.7 POS CONDICIONES </th>
+    </tr>
+    <tr>
+        <th colspan="4"> Sistema </th>
+    </tr>
+    <tr>
+        <th colspan="4"> 3.8 FRECUENCIA </th>
+    </tr>
+    <tr>
+        <th colspan="4" > Qué frecuencia tiene el CU Alta Media Baja </th>
+    </tr>
+</table>
 
 +----------------+----------------+----------------+----------------+
 | 6.             |                |                |                |
