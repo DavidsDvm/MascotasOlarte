@@ -908,161 +908,133 @@ Reporte de estado de citas cumplidas por agenda médica
     </tr>
 </table>
 
-+----------------+----------------+----------------+----------------+
-| 6.             |                |                |                |
-| IDENTIFICACIÓN |                |                |                |
-|     DE CASO DE |                |                |                |
-|     USO        |                |                |                |
-+================+================+================+================+
-| 1.1 Id Caso    | CU005          | 1.2 Nombre     | Gestionar      |
-|                |                |                | Mascotas en    |
-|                |                |                | Adopción       |
-+----------------+----------------+----------------+----------------+
-| 6.  HISTORICO  |                |                |                |
-|     DE CASO DE |                |                |                |
-|     USO        |                |                |                |
-+----------------+----------------+----------------+----------------+
-| 2.1 Autor      | Kevin David    |                |                |
-|                | Rodriguez      |                |                |
-|                | Riveros-David  |                |                |
-|                | Vargas Monroy  |                |                |
-+----------------+----------------+----------------+----------------+
-| 2.2 Fecha      | 5-5-2019       | 1.  Última     |                |
-| Creación       |                |     >          |                |
-|                |                |  Actualización |                |
-+----------------+----------------+----------------+----------------+
-| 2.4            | Kevin          |                | 1.0            |
-| Actualizado    | Rodriguez      |                |                |
-| por            |                |                |                |
-+----------------+----------------+----------------+----------------+
-| 6.  DEFINICION |                |                |                |
-|     DE UN CASO |                |                |                |
-|     DE USO     |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.1          |                |                |                |
-| DESCRIPCIÓN**  |                |                |                |
-+----------------+----------------+----------------+----------------+
-| Permite        |                |                |                |
-| gestionar      |                |                |                |
-| mascotas en    |                |                |                |
-| adopción       |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.2          |                |                |                |
-| ACTORES**      |                |                |                |
-+----------------+----------------+----------------+----------------+
-| Admón, Medico, |                |                |                |
-| Secretaria     |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.3          |                |                |                |
-| PR             |                |                |                |
-| ECONDICIONES** |                |                |                |
-+----------------+----------------+----------------+----------------+
-| 1.  El usuario |                |                |                |
-|     > debe     |                |                |                |
-|     > estar    |                |                |                |
-|                |                |                |                |
-|  > autenticado |                |                |                |
-|     > en el    |                |                |                |
-|     > sistema  |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.4 FLUJO    |                |                |                |
-| NORMAL**       |                |                |                |
-+----------------+----------------+----------------+----------------+
-| Contando con   |                |                |                |
-| las            |                |                |                |
-| precondiciones |                |                |                |
-| el flujo       |                |                |                |
-| normal será el |                |                |                |
-| siguiente:     |                |                |                |
-|                |                |                |                |
-|   **Pas        |                |                |                |
-| o**   **Actor* |                |                |                |
-| *              |                |                |                |
-|                |                |                |                |
-|                |                |                |                |
-|    **Sistema** |                |                |                |
-|   ---          |                |                |                |
-| ------- ------ |                |                |                |
-| -------------- |                |                |                |
-| -------------- |                |                |                |
-| -------------- |                |                |                |
-| ---- --------- |                |                |                |
-| -------------- |                |                |                |
-| -------------- |                |                |                |
-| -------------- |                |                |                |
-|   1            |                |                |                |
-|           Ingr |                |                |                |
-| esa sus datos  |                |                |                |
-|                |                |                |                |
-|                |                |                |                |
-|        Verific |                |                |                |
-| a si los datos |                |                |                |
-|  son correctos |                |                |                |
-|                |                |                |                |
-|  2          Es |                |                |                |
-| coge la opción |                |                |                |
-|  de gestionar  |                |                |                |
-| mascotas en ad |                |                |                |
-| opción   El si |                |                |                |
-| stema desplieg |                |                |                |
-| a las opciones |                |                |                |
-|   3            |                |                |                |
-|           El u |                |                |                |
-| suario escoge  |                |                |                |
-| que opción qui |                |                |                |
-| ere realizar   |                |                |                |
-|        Tiene l |                |                |                |
-| a opción de cr |                |                |                |
-| ear o eliminar |                |                |                |
-|  ID de mascota |                |                |                |
-|   4            |                |                |                |
-|                |                |                |                |
-|                |                |                |                |
-|                |                |                |                |
-|            Ela |                |                |                |
-| bora la acción |                |                |                |
-|   5            |                |                |                |
-|                |                |                |                |
-|                |                |                |                |
-|                |                |                |                |
-|              M |                |                |                |
-| ensaje diciend |                |                |                |
-| o la acción qu |                |                |                |
-| e ha realizado |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.5 FLUJO    |                |                |                |
-| ALTERNATIVO**  |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.5 FLUJO    |                |                |                |
-| EXCEPCIONAL**  |                |                |                |
-+----------------+----------------+----------------+----------------+
-|   **P          |                |                |                |
-| aso**   **Acto |                |                |                |
-| r**            |                |                |                |
-|    **Sistema** |                |                |                |
-|                |                |                |                |
-|  ---------- -- |                |                |                |
-| -------------- |                |                |                |
-| ------ ------- |                |                |                |
-| -------------- |                |                |                |
-|   1            |                |                |                |
-| Digita mal sus |                |                |                |
-|  datos   No en |                |                |                |
-| tra al sistema |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.7 POS      |                |                |                |
-| CONDICIONES**  |                |                |                |
-+----------------+----------------+----------------+----------------+
-| Sistema        |                |                |                |
-+----------------+----------------+----------------+----------------+
-| **3.8          |                |                |                |
-| FRECUENCIA**   |                |                |                |
-+----------------+----------------+----------------+----------------+
-| Que frecuencia |                |                |                |
-| tiene el CU    |                |                |                |
-| Alta Media     |                |                |                |
-| Baja           |                |                |                |
-+----------------+----------------+----------------+----------------+
+<table style="width:100%">
+    <tr>
+        <th colspan="4">1. IDENTIFICACIÓN DE CASO DE USO</th>
+    </tr>
+    <tr>
+        <th>1.1 Id Caso</th>
+        <th>CU006</th>
+        <th>1.2 Nombre</th>
+        <th>Gestionar Reportes asignación cita</th>
+    </tr>
+     <tr>
+        <th colspan="4">2.  HISTORICO DE CASO DE USO</th>
+    </tr>
+    <tr>
+        <th>2.1 Autores</th>
+        <th colspan="3">Kevin David Rodriguez Riveros - David Vargas Monroy</th>
+    </tr>
+    <tr>
+        <th>2.2 Fecha Creación </th>
+        <th>5-5-2019</th>
+        <th colspan="2">1. Última Actualización</th>
+    </tr>
+    <tr>
+        <th>2.4 Actualizado por</th>
+        <th>Kevin Rodriguez</th>
+        <th> </th>
+        <th>1.0</th>
+    </tr>
+    <tr>
+        <th colspan="4">1. DEFINICIÓN DE UN CASO DE USO</th>
+    </tr>
+    <tr>
+        <th colspan="4"> **3.1 DESCRIPCIÓN** </th>
+    </tr>
+    <tr>
+        <th colspan="4"> Permite gestionar Reportes asignación cita  </th>
+    </tr>
+    <tr>
+        <th colspan="4"> **3.2 ACTORES** </th>
+    </tr>
+    <tr>
+        <th colspan="4"> Admon, Secretaria. </th>
+    </tr>
+     <tr>
+        <th colspan="4"> **3.3 PRECONDICIONES**  </th>
+    </tr>
+    <tr>
+        <th colspan="4"> 1.  El usuario debe estar autenticado en el sistema </th>
+    </tr>
+    <tr>
+        <tr>
+            <th colspan="4"> **3.4 FLUJO NORMAL** </th>
+        </tr>
+        <tr>
+            <th colspan="4"> Contando con las precondiciones el flujo normal será el siguiente: </th>
+        </tr>
+        <tr>
+            <tr>
+                <th> Paso </th>
+                <th> Actor </th>
+                <th colspan="2"> Sistema </th>
+            </tr>
+            <tr>
+                <th> 1 </th>
+                <th> Ingresa sus datos </th>
+                <th colspan="2"> Verifica si los datos son correctos </th>
+            </tr>
+            <tr>
+                <th> 2 </th>
+                <th> Escoge la opción de gestionar mascotas en adopción   </th>
+                <th colspan="2"> El sistema despliega las opciones </th>
+            </tr>
+            <tr>
+                <th> 3 </th>
+                <th> El usuario escoge que opción quiere realizar </th>
+                <th colspan="2"> Tiene la opción de Asignar, Reagendar, Cancelar, Registrar o Consultar Historial completo de cita </th>
+            </tr>
+            <tr>
+                <th> 4 </th>
+                <th> Da click en la opción  </th>
+                <th colspan="2"> Elabora la acción  </th>
+            </tr>
+            <tr>
+                <th> 5 </th>
+                <th>  </th>
+                <th colspan="2"> Mensaje diciendo la acción realizada </th>
+            </tr>
+            <tr>
+                <th>   </th>
+                <th>   </th>
+                <th colspan="2">   </th>
+            </tr>
+        </tr>
+    </tr>
+    <tr>
+        <th colspan="4"> 3.5 FLUJO ALTERNATIVO  </th>
+    </tr>
+    <tr>
+        <tr>
+            <th colspan="4"> 3.6 FLUJO EXCEPCIONAL </th>
+        </tr>
+        <tr>
+            <tr>
+                <th> Paso </th>
+                <th> Actor </th>
+                <th colspan="2"> Sistema </th>
+            </tr>
+            <tr>
+                <th> 1 </th>
+                <th> Digita mal sus datos </th>
+                <th colspan="2"> No entra al sistema </th>
+            </tr>
+        </tr>
+    </tr>
+    <tr>
+        <th colspan="4"> 3.7 POS CONDICIONES </th>
+    </tr>
+    <tr>
+        <th colspan="4"> Sistema </th>
+    </tr>
+    <tr>
+        <th colspan="4"> 3.8 FRECUENCIA </th>
+    </tr>
+    <tr>
+        <th colspan="4" > Qué frecuencia tiene el CU Alta Media Baja </th>
+    </tr>
+</table>
 
 +----------------+----------------+----------------+----------------+
 | 7.             |                |                |                |
